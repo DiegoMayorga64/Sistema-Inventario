@@ -24,7 +24,7 @@ public class VentanaPedido extends JFrame implements ActionListener {
         this.add(this.pnlBtnsPedido, BorderLayout.CENTER);
         this.add(this.pnlRecibirPedido, BorderLayout.NORTH);
 
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         this.setIconImage(new ImageIcon("imagenes//icono2.jpg").getImage());
         this.setSize(400, 400);
         this.setLocation(500, 0);
