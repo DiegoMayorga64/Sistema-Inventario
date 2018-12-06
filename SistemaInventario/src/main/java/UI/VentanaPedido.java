@@ -26,7 +26,7 @@ public class VentanaPedido extends JFrame implements ActionListener {
 
         this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         this.setIconImage(new ImageIcon("imagenes//icono2.jpg").getImage());
-        this.setSize(400, 400);
+        this.setSize(400, 300);
         this.setLocation(500, 0);
         this.setTitle("Gestion de Pedidos");
         this.setVisible(true);
@@ -38,9 +38,7 @@ public class VentanaPedido extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (pnlBtnsPedido.btnGenerarPedido == e.getSource()) {
-            pnlBtnsPedido.pedidos = pnlBtnsPedido.pedidos + 1;
-            JOptionPane.showMessageDialog(null, "Pedido N°" + pnlBtnsPedido.pedidos + "\n"
-                    + " Nombre: \n Tamaño: \n Anotacion: \n ");
+            
         } else if (pnlBtnsPedido.btnRetorno == e.getSource()) {
 
         }

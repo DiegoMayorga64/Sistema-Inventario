@@ -37,10 +37,11 @@ public class PanelRecibirPedido extends JPanel {
         this.cbProducto.addItem("Completo");
         this.cbProducto.addItem("Papas Fritas");
         this.cbProducto.addItem("Chorrillana");
+        
         //////////////////////////////////////////
         this.cbTamaño.addItem("Grande");
         this.cbTamaño.addItem("Normal");
-        this.cbTamaño.addItem("No Aplica");
+        
         //////////////////////////////////////////
         this.add(this.lblProducto); this.add(this.cbProducto);
         this.add(this.lblTamaño); this.add(this.cbTamaño);
