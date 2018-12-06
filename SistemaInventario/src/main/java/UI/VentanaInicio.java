@@ -29,7 +29,7 @@ public class VentanaInicio extends JFrame {
 
     private void inicializarComponentes() {
         this.pnlBtnsInicio = new PanelBotonesInicio();
-        this.add(this.pnlBtnsInicio, BorderLayout.CENTER);
+        this.add(this.pnlBtnsInicio, BorderLayout.SOUTH);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setIconImage(new ImageIcon("data//icono2.jpg").getImage());
         this.setTitle("Inicio");

@@ -32,7 +32,7 @@ public class VentanaInventario extends JFrame implements ActionListener {
         this.add(this.pnlTablaInv, BorderLayout.SOUTH);
         this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         this.setIconImage(new ImageIcon("imagenes//icono2.jpg").getImage());
-        this.setSize(400, 800);
+        this.setSize(400, 700);
         this.setLocation(500, 0);
         this.setTitle("Gestion de Inventario");
         this.visible = true;
