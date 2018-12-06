@@ -38,7 +38,7 @@ public class VentanaPedido extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (pnlBtnsPedido.btnGenerarPedido == e.getSource()) {
-
+            
         } else if (pnlBtnsPedido.btnRetorno == e.getSource()) {
 
         }
